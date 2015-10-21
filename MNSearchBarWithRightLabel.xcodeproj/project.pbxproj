@@ -7,14 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D7B890B1BD507E900E503A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D7B890A1BD507E900E503A0 /* Main.storyboard */; settings = {ASSET_TAGS = (); }; };
+		7D7B890E1BD508AF00E503A0 /* StartTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D7B890D1BD508AF00E503A0 /* StartTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		7D7B891F1BD5179800E503A0 /* SearchCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D7B891E1BD5179800E503A0 /* SearchCollectionViewController.m */; settings = {ASSET_TAGS = (); }; };
+		7D9F2CC51BD29A18003C4386 /* SearchResultsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D9F2CC41BD29A18003C4386 /* SearchResultsTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		7DD4640E1BD39585001FEDA2 /* CollectionView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DD4640D1BD39585001FEDA2 /* CollectionView.storyboard */; settings = {ASSET_TAGS = (); }; };
+		7DD464111BD39619001FEDA2 /* MainCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DD464101BD39619001FEDA2 /* MainCollectionViewController.m */; settings = {ASSET_TAGS = (); }; };
+		7DD464171BD3A3A6001FEDA2 /* MNLabelWithClearButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DD464161BD3A3A6001FEDA2 /* MNLabelWithClearButtonView.m */; settings = {ASSET_TAGS = (); }; };
+		7DD4641C1BD3A692001FEDA2 /* UISearchBar+RightLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DD4641B1BD3A692001FEDA2 /* UISearchBar+RightLabel.m */; settings = {ASSET_TAGS = (); }; };
 		7DD592641BCD93D6009D35BA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DD592631BCD93D6009D35BA /* main.m */; };
 		7DD592671BCD93D6009D35BA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DD592661BCD93D6009D35BA /* AppDelegate.m */; };
-		7DD5926A1BCD93D6009D35BA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DD592691BCD93D6009D35BA /* ViewController.m */; };
-		7DD5926D1BCD93D6009D35BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DD5926B1BCD93D6009D35BA /* Main.storyboard */; };
+		7DD5926A1BCD93D6009D35BA /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DD592691BCD93D6009D35BA /* MainTableViewController.m */; };
+		7DD5926D1BCD93D6009D35BA /* TableView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DD5926B1BCD93D6009D35BA /* TableView.storyboard */; };
 		7DD5926F1BCD93D6009D35BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DD5926E1BCD93D6009D35BA /* Assets.xcassets */; };
 		7DD592721BCD93D6009D35BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DD592701BCD93D6009D35BA /* LaunchScreen.storyboard */; };
 		7DD5927D1BCD93D6009D35BA /* MNSearchBarWithRightLabelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DD5927C1BCD93D6009D35BA /* MNSearchBarWithRightLabelTests.m */; };
 		7DD592881BCD93D6009D35BA /* MNSearchBarWithRightLabelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DD592871BCD93D6009D35BA /* MNSearchBarWithRightLabelUITests.m */; };
+		7DD5929F1BCDA0F1009D35BA /* icn_clear_text.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DD5929C1BCDA0F1009D35BA /* icn_clear_text.png */; settings = {ASSET_TAGS = (); }; };
+		7DD592A01BCDA0F1009D35BA /* icn_clear_text@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DD5929D1BCDA0F1009D35BA /* icn_clear_text@2x.png */; settings = {ASSET_TAGS = (); }; };
+		7DD592A11BCDA0F1009D35BA /* icn_clear_text@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DD5929E1BCDA0F1009D35BA /* icn_clear_text@3x.png */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,13 +46,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7D7B890A1BD507E900E503A0 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		7D7B890C1BD508AF00E503A0 /* StartTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartTableViewController.h; sourceTree = "<group>"; };
+		7D7B890D1BD508AF00E503A0 /* StartTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartTableViewController.m; sourceTree = "<group>"; };
+		7D7B891D1BD5179800E503A0 /* SearchCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchCollectionViewController.h; sourceTree = "<group>"; };
+		7D7B891E1BD5179800E503A0 /* SearchCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchCollectionViewController.m; sourceTree = "<group>"; };
+		7D9F2CC31BD29A18003C4386 /* SearchResultsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchResultsTableViewController.h; sourceTree = "<group>"; };
+		7D9F2CC41BD29A18003C4386 /* SearchResultsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchResultsTableViewController.m; sourceTree = "<group>"; };
+		7DD4640D1BD39585001FEDA2 /* CollectionView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CollectionView.storyboard; sourceTree = "<group>"; };
+		7DD4640F1BD39619001FEDA2 /* MainCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainCollectionViewController.h; sourceTree = "<group>"; };
+		7DD464101BD39619001FEDA2 /* MainCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainCollectionViewController.m; sourceTree = "<group>"; };
+		7DD464151BD3A3A6001FEDA2 /* MNLabelWithClearButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNLabelWithClearButtonView.h; sourceTree = "<group>"; };
+		7DD464161BD3A3A6001FEDA2 /* MNLabelWithClearButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNLabelWithClearButtonView.m; sourceTree = "<group>"; };
+		7DD4641A1BD3A692001FEDA2 /* UISearchBar+RightLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UISearchBar+RightLabel.h"; sourceTree = "<group>"; };
+		7DD4641B1BD3A692001FEDA2 /* UISearchBar+RightLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UISearchBar+RightLabel.m"; sourceTree = "<group>"; };
 		7DD5925F1BCD93D6009D35BA /* MNSearchBarWithRightLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MNSearchBarWithRightLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DD592631BCD93D6009D35BA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7DD592651BCD93D6009D35BA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7DD592661BCD93D6009D35BA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7DD592681BCD93D6009D35BA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7DD592691BCD93D6009D35BA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		7DD5926C1BCD93D6009D35BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7DD592681BCD93D6009D35BA /* MainTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainTableViewController.h; sourceTree = "<group>"; };
+		7DD592691BCD93D6009D35BA /* MainTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainTableViewController.m; sourceTree = "<group>"; };
+		7DD5926C1BCD93D6009D35BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/TableView.storyboard; sourceTree = "<group>"; };
 		7DD5926E1BCD93D6009D35BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7DD592711BCD93D6009D35BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7DD592731BCD93D6009D35BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +76,9 @@
 		7DD592831BCD93D6009D35BA /* MNSearchBarWithRightLabelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MNSearchBarWithRightLabelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DD592871BCD93D6009D35BA /* MNSearchBarWithRightLabelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MNSearchBarWithRightLabelUITests.m; sourceTree = "<group>"; };
 		7DD592891BCD93D6009D35BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DD5929C1BCDA0F1009D35BA /* icn_clear_text.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icn_clear_text.png; sourceTree = "<group>"; };
+		7DD5929D1BCDA0F1009D35BA /* icn_clear_text@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icn_clear_text@2x.png"; sourceTree = "<group>"; };
+		7DD5929E1BCDA0F1009D35BA /* icn_clear_text@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icn_clear_text@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,13 +131,24 @@
 			children = (
 				7DD592651BCD93D6009D35BA /* AppDelegate.h */,
 				7DD592661BCD93D6009D35BA /* AppDelegate.m */,
-				7DD592681BCD93D6009D35BA /* ViewController.h */,
-				7DD592691BCD93D6009D35BA /* ViewController.m */,
-				7DD5926B1BCD93D6009D35BA /* Main.storyboard */,
+				7DD592951BCD9402009D35BA /* MNSearchBar */,
+				7DD592681BCD93D6009D35BA /* MainTableViewController.h */,
+				7DD592691BCD93D6009D35BA /* MainTableViewController.m */,
+				7D9F2CC31BD29A18003C4386 /* SearchResultsTableViewController.h */,
+				7D9F2CC41BD29A18003C4386 /* SearchResultsTableViewController.m */,
+				7DD5926B1BCD93D6009D35BA /* TableView.storyboard */,
 				7DD5926E1BCD93D6009D35BA /* Assets.xcassets */,
 				7DD592701BCD93D6009D35BA /* LaunchScreen.storyboard */,
 				7DD592731BCD93D6009D35BA /* Info.plist */,
 				7DD592621BCD93D6009D35BA /* Supporting Files */,
+				7DD4640F1BD39619001FEDA2 /* MainCollectionViewController.h */,
+				7DD464101BD39619001FEDA2 /* MainCollectionViewController.m */,
+				7D7B891D1BD5179800E503A0 /* SearchCollectionViewController.h */,
+				7D7B891E1BD5179800E503A0 /* SearchCollectionViewController.m */,
+				7DD4640D1BD39585001FEDA2 /* CollectionView.storyboard */,
+				7D7B890A1BD507E900E503A0 /* Main.storyboard */,
+				7D7B890C1BD508AF00E503A0 /* StartTableViewController.h */,
+				7D7B890D1BD508AF00E503A0 /* StartTableViewController.m */,
 			);
 			path = MNSearchBarWithRightLabel;
 			sourceTree = "<group>";
@@ -138,6 +177,20 @@
 				7DD592891BCD93D6009D35BA /* Info.plist */,
 			);
 			path = MNSearchBarWithRightLabelUITests;
+			sourceTree = "<group>";
+		};
+		7DD592951BCD9402009D35BA /* MNSearchBar */ = {
+			isa = PBXGroup;
+			children = (
+				7DD5929C1BCDA0F1009D35BA /* icn_clear_text.png */,
+				7DD5929D1BCDA0F1009D35BA /* icn_clear_text@2x.png */,
+				7DD5929E1BCDA0F1009D35BA /* icn_clear_text@3x.png */,
+				7DD464151BD3A3A6001FEDA2 /* MNLabelWithClearButtonView.h */,
+				7DD464161BD3A3A6001FEDA2 /* MNLabelWithClearButtonView.m */,
+				7DD4641A1BD3A692001FEDA2 /* UISearchBar+RightLabel.h */,
+				7DD4641B1BD3A692001FEDA2 /* UISearchBar+RightLabel.m */,
+			);
+			path = MNSearchBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,8 +297,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				7DD592721BCD93D6009D35BA /* LaunchScreen.storyboard in Resources */,
+				7DD592A01BCDA0F1009D35BA /* icn_clear_text@2x.png in Resources */,
+				7DD5929F1BCDA0F1009D35BA /* icn_clear_text.png in Resources */,
+				7D7B890B1BD507E900E503A0 /* Main.storyboard in Resources */,
+				7DD592A11BCDA0F1009D35BA /* icn_clear_text@3x.png in Resources */,
 				7DD5926F1BCD93D6009D35BA /* Assets.xcassets in Resources */,
-				7DD5926D1BCD93D6009D35BA /* Main.storyboard in Resources */,
+				7DD4640E1BD39585001FEDA2 /* CollectionView.storyboard in Resources */,
+				7DD5926D1BCD93D6009D35BA /* TableView.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +328,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7DD5926A1BCD93D6009D35BA /* ViewController.m in Sources */,
+				7DD5926A1BCD93D6009D35BA /* MainTableViewController.m in Sources */,
+				7D9F2CC51BD29A18003C4386 /* SearchResultsTableViewController.m in Sources */,
 				7DD592671BCD93D6009D35BA /* AppDelegate.m in Sources */,
+				7DD464171BD3A3A6001FEDA2 /* MNLabelWithClearButtonView.m in Sources */,
+				7DD4641C1BD3A692001FEDA2 /* UISearchBar+RightLabel.m in Sources */,
 				7DD592641BCD93D6009D35BA /* main.m in Sources */,
+				7DD464111BD39619001FEDA2 /* MainCollectionViewController.m in Sources */,
+				7D7B891F1BD5179800E503A0 /* SearchCollectionViewController.m in Sources */,
+				7D7B890E1BD508AF00E503A0 /* StartTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,12 +372,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		7DD5926B1BCD93D6009D35BA /* Main.storyboard */ = {
+		7DD5926B1BCD93D6009D35BA /* TableView.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				7DD5926C1BCD93D6009D35BA /* Base */,
 			);
-			name = Main.storyboard;
+			name = TableView.storyboard;
 			sourceTree = "<group>";
 		};
 		7DD592701BCD93D6009D35BA /* LaunchScreen.storyboard */ = {
@@ -496,6 +560,7 @@
 				7DD5928E1BCD93D6009D35BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7DD5928F1BCD93D6009D35BA /* Build configuration list for PBXNativeTarget "MNSearchBarWithRightLabelTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +569,7 @@
 				7DD592911BCD93D6009D35BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7DD592921BCD93D6009D35BA /* Build configuration list for PBXNativeTarget "MNSearchBarWithRightLabelUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +578,7 @@
 				7DD592941BCD93D6009D35BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

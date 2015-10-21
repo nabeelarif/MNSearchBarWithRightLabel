@@ -3,12 +3,12 @@
 //  MNSearchBarWithRightLabel
 //
 //  Created by Nabeel Arif on 10/14/15.
-//  Copyright © 2015 Advanced Progressive. All rights reserved.
+//  Copyright © 2015 Nabeel. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface MainTableViewController : UITableViewController
 
 
 @end

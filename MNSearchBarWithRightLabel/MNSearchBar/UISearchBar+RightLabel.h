@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
+
 @interface UISearchBar (RightLabel)
 @property (nonatomic, strong) NSString *rightText;
 @property (nonatomic) UITextFieldViewMode rightViewMode;
